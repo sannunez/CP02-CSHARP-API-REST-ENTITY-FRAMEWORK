@@ -24,7 +24,7 @@ Nome do banco local utilizado no desenvolvimento:
 gestao_alunos
 ```
 
-O acesso ao banco e configurado no arquivo:
+O acesso ao banco é configurado no arquivo:
 
 ```text
 WebApplication1/appsettings.json
