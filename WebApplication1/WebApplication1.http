@@ -1,0 +1,20 @@
+@WebApplication1_HostAddress = http://localhost:5222
+
+GET {{WebApplication1_HostAddress}}/api/v1/alunos
+Accept: application/json
+
+###
+
+POST {{WebApplication1_HostAddress}}/api/v1/alunos
+Content-Type: application/json
+
+{
+  "nome": "Ana Souza",
+  "email": "ana.souza@email.com",
+  "matricula": "RM12345",
+  "curso": "Analise e Desenvolvimento de Sistemas",
+  "periodo": 5,
+  "dataNascimento": "2002-04-15"
+}
+
+###
